@@ -111,6 +111,16 @@ body {
 	line-height: 5em;
 }
 
+.group3 {
+  top: 50%;
+	left: 12%;
+	line-height: 5em;
+}
+
+.group4 {
+  top: 100%;
+}
+
 .planet {
 	position: absolute;
 	height: 5em;
@@ -120,18 +130,18 @@ body {
 }
 
 #planet1 {
-  top: -80%;
+  top: -5%;
 	right: 10%;
 }
 
 #planet2 {
-  top: -10%;
-	left: 18%;
+  top: -9%;
+	left: 35%;
 	transform: scale(0.5);
 }
 
 #planet3 {
-  top: -50%;
+  top: -3%;
 	left: 50%;
 	transform: scale(0.4);
 }
@@ -142,7 +152,7 @@ body {
 }
 
 #planet8 {
-  top: -20%;
+  /* top: -8%; */
 	left: 40%;
 	transform: scale(0.8);
 }
@@ -167,6 +177,7 @@ body {
 #world {
 	position: absolute;
 	right: 5%;
+	top: 15%;
 	width: 20em;
 	height: 20em;
 	border-radius: 100%;

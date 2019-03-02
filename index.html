@@ -3,8 +3,8 @@
 	<head>
 		<title>Nemesis</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script|Roboto+Mono" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<div class="parallax">
@@ -50,7 +50,9 @@
 			<div class="parallax-group" id="p-group5">
 				<div class="parallax-layer parallax-layer-slow5">
 	        <div id="world">
-	          <div class="cloud"></div>
+						<div id="cloud-container">
+							<!-- <img src="clouds.svg" id="clouds"> -->
+					  </div>
 					</div>
 					<div class="planet" id="planet1"></div>
 					<div class="planet" id="planet2"></div>
@@ -63,6 +65,23 @@
 					<div class="planet" id="planet8"></div>
 					<div class="planet" id="planet9"></div>
 				</div>
+			</div>
+			<div class="parallax-group" id="p-group6">
+				<div class="parallax-layer parallax-layer-slow3" id="wedges">
+					<div class="wedge" id="wedge-top-left"></div>
+					<div class="wedge" id="wedge-top-right"></div>
+					<!-- <div class="wedge" id="wedge-bottom-left"></div>
+					<div class="wedge" id="wedge-bottom-right"></div> -->
+		   	</div>
+				<div class="parallax-layer parallax-layer-slow2">
+					<div class="wedge" id="wedge-bottom-left"></div>
+					<div class="wedge" id="wedge-bottom-right"></div>
+				</div>
+			</div>
+			<div class="parallax-group" id="p-group7">
+				<div class="parallax-layer parallax-layer-slow2">
+          <div id="light-sky"></div>
+		  	</div>
 			</div>
 	  </div>
 

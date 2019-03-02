@@ -50,8 +50,7 @@ module.exports = {
                     }
                     // Please note we are not running postcss here
                 ]
-            }
-            ,
+            },
             {
                 // Load all images as base64 encoding if they are smaller than 8192 bytes
                 test: /\.(png|jpg|gif)$/,
@@ -65,6 +64,14 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.svg$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'assets/images/'
+                }
             }
         ],
     },

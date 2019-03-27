@@ -40,7 +40,6 @@ Open browser on localhost:8080
 
 Matt Groberg & Justin Haupt
 
-All vagabonds, mystics, and tentacles are welcome to contribute
 
 ## License
 

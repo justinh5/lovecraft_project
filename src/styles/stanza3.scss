@@ -1,0 +1,87 @@
+
+.wedge {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 80%;
+	background-color: black;
+}
+
+#wedge-top-left {
+  left: -10%;
+	transform: rotateZ(20deg) skewX(25deg);
+}
+
+#wedge-top-right {
+	right: -10%;
+	transform: rotateZ(-20deg) skewX(-25deg);
+}
+
+.monolith {
+  position: absolute;
+  background-color: black;
+  height: 80vw;
+  bottom: -100%;
+}
+
+.large {
+  width: 8vw;
+}
+
+.med {
+  width: 5vw;
+}
+
+.small {
+  width: 2vw;
+}
+
+
+#monolith1 {
+  right: 5%;
+  top: 50%;
+}
+
+#monolith2 {
+  left: 30%;
+  top: 65%;
+}
+
+#monolith3 {
+  right: 30%;
+  top: 50%;
+}
+
+#monolith4 {
+  left: 15%;
+  top: 60%;
+}
+
+#monolith5 {
+  height: 100vw;
+  left: 50%;
+  top: 60%;
+}
+
+#monolith6 {
+  left: 2%;
+}
+
+#monolith7 {
+  right: 13%;
+  top: 80%;
+}
+
+.group5 {
+  top: 100%;
+}
+
+.dark-box {
+  position: absolute;
+  top: 100%;
+  left: -5%;
+  right: -5%;
+  width: 120vw;
+  height: 200vh;
+  background-color: black;
+}
